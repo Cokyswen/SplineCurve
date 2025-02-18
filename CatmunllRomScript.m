@@ -126,6 +126,6 @@ C = CatmullRomSpline(1, 10, point);
 plot(C(:,1), C(:,2), 'color', 'm','LineWidth', 2, 'marker', '*');
 hold on;
 
-plot(point(:, 1), point(:, 2),'color', 'r', 'LineWidth', 2, 'marker', 'o')
+plot(point(:, 1), point(:, 2),'color', 'r', 'LineWidth', 1, 'marker', 'o')
 hold on;
 
